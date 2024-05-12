@@ -1,0 +1,54 @@
+@import "../../style.scss";
+
+.comment {
+  @include themify($themes) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .info {
+      flex: 1;
+
+      span {
+        font-weight: 500;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .actions {
+      display: flex;
+      gap: 5px;
+      margin-top: 21px;
+
+      button {
+        color: rgb(93, 89, 89);
+        border: none;
+        padding: 5px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #a6b5e3;
+      }
+    }
+  }
+}
