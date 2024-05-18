@@ -25,7 +25,7 @@ const ShareModal = ({ open, onClose, onShare, text }) => {
         </Typography>
         <TextField
           id="share-message"
-          label="Add a caption to share this post."
+          label="Add a caption to share this post. "
           variant="outlined"
           value={message}
           onChange={handleChange}
