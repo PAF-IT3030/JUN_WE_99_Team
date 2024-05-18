@@ -1,4 +1,4 @@
-
+import  { Link, useNavigate } from "react-router-dom";
 import "./register.scss";
 import  { useReducer } from "react";
 import request from "../../util/fetchUtil";
