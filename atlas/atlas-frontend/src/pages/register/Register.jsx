@@ -42,7 +42,7 @@ const Register = () => {
 
     signup(signUpRequest)
       .then((response) => {
-        toast("You are successfully registered. Please login to continue!", {
+        toast("You're successfully registered. Please login to continue!", {
           type: "success",
         });
 
