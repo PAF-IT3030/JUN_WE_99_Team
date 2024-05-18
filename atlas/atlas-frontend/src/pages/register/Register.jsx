@@ -2,7 +2,7 @@ import  { Link, useNavigate } from "react-router-dom";
 import "./register.scss";
 import  { useReducer } from "react";
 import request from "../../util/fetchUtil";
-import { API_BASE_URL } from "../../constants";
+import  { API_BASE_URL } from "../../constants";
 import { toast } from "react-toastify";
 
 const Register = () => {
